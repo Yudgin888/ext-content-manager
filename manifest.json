@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "Blocker",
+	"description": "Закрыть окно опоздуна",
+	"version": "1.0.0",
+	"icons": {"256": "091_083.png"},
+	"permissions": [ "contextMenus", "privacy", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+	"background": {
+		"scripts": ["background.js"]
+    }
+}
